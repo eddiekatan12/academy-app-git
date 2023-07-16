@@ -42,6 +42,9 @@ public class MapperConfig {
         typeMap3.addMapping(e->e.getCourse().getIdCourse(), (dest, v)-> dest.getCourse().setIdCourse((Integer) v));
         typeMap4.addMapping(e->e.getCourse().getIdCourse(), (dest,v)->dest.getCourse().setIdCourse((Integer) v));
 
+        System.out.println("hola eddie");
         return mapper;
+
+
     }
 }
